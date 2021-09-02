@@ -3,7 +3,7 @@
 //document.write("Elemento 3 <br>");
 //document.write("Elemento 4 <br>");
 //document.write("Elemento 5 <br>");
-//ocument.write("Elemento 6 <br>");
+//document.write("Elemento 6 <br>");
 //document.write("Elemento 7 <br>");
 //document.write("Elemento 8 <br>");
 

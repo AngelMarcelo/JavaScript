@@ -6,7 +6,7 @@ de multiples lineas*/
 //mostrar un mensaje por consola
 console.log("hola comision 17");
 
-// mostrr un mensaje en la pagina web
+// mostrar un mensaje en la pagina web
 document.write("Este es mi primer mensaje")
 
 //mostar una ventana emergente

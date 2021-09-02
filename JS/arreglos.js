@@ -27,7 +27,7 @@ console.log(series.length);
 
 // mostrar todos los elementos de un arreglo
 for(let posicion = 0; posicion < series.length; posicion++){
-    document.write("<br>Sries: "+series[posicion]);
+    document.write("<br>Series: "+series[posicion]);
 }
 
 // modificar un elemento del arreglo
@@ -35,15 +35,32 @@ series[4] = "The office";
 
 document.write("<br>" );
 for(let posicion = 0; posicion < series.length; posicion++){
-    document.write("<br>Sries: "+series[posicion]);
+    document.write("<br>Series: "+series[posicion]);
 }
 
 //agregar elemento nuevo en una posicion particular
 
 series.splice(0,0,"One piece");
+//splice(posicion, elementos a borrar a partir de la posicion anterior, elemento a agregar en el arreglo)
 
-document.write("<br>" );
+mostrarSeries();
+
+// eliminar elementos de un arreglo
+series.splice(7,1);
+//splice (para borrar un elemento)
+mostrarSeries();
+
+//eliminar todos los elementos a partir de tal posicion
+
+series.splice(3); // borro desde la posicion 3
+series.splice(0,1);
+
+mostrarSeries();
+
+// crar funcion que muestre los elementos del arreglo
+function mostrarSeries(){
+document.write("<br>");
 for(let posicion = 0; posicion < series.length; posicion++){
-    document.write("<br>Sries: "+series[posicion]);
+    document.write("<br>Series: "+series[posicion]);
 }
-
+}
