@@ -12,9 +12,18 @@ let numero2 = parseInt(prompt("ingrese un segundo numero"));
 
 if (numero1 > numero2) {
   document.write("la variable numero1 es mayor " + numero1);
-} else if (numero2 > numero1) {
+} else {if (numero2 > numero1) {
     document.write("la variable numero2 es mayor " + numero1);
   } else {
     document.write("los numeros son iguales");
   }
+}
 
+//tambien puedo sintetizar u poco si luego del else viene otra pregunta if ejemplo: "else if"
+if (numero1 > numero2) {
+  document.write("la variable numero1 es mayor " + numero1);
+} else if(numero2 > numero1) {
+    document.write("la variable numero2 es mayor " + numero1);
+  } else {
+    document.write("los numeros son iguales");
+  }
