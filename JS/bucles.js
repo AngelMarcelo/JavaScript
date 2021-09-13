@@ -45,7 +45,7 @@ let elemento =1;
 do{
     document.write("Elemento do-while "+elemento+"<br>");
     elemento++;
-}while(elemnto <=100)
+}while(elemento <=100)
 
 // Estructura for es un resumen del while pero en una sola linea
 /* 
