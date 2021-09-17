@@ -1,10 +1,12 @@
-let mostrarObjeto = () =>{
+let mostrarObjeto = (serieParametro) =>{
     // obtener todas las claves de un objeto como si fuera un arreglo
     let claves = Object.keys(serieParametro);
-    console.log(claves) //["nombre",......]
+    console.log(claves) //["nombre","temporadas", "capitulos", "premios"]
     for(let i=0; i < claves.length; i ++){
-        document.write(`<br> ${claves[i]}: ${serieParametro[claves[i]]}`)
-        document.write(``<br>)
+        // document.write(`<br> ${claves[i]}: ${serieParametro[claves[i]]}`)
+        document.write(`<br>`+propiedad+": "+serieParametro[propiedad])
+
+
 
     }
 }
@@ -31,7 +33,8 @@ document.write(`<br>Temporadas: ${serie["temporadas"]}`);
 console.log(serie);
 
 // modificar la propiedad de un objeto
-//document.write(`<br>Tempordas: ${serie []}`);
+
+//document.write(`<br>Tempordas: ${serie ["temporadas"]}`);
 
 // agregar propiedades a un objeto
 serie.premios = true;

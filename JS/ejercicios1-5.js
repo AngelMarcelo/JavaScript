@@ -38,16 +38,16 @@
     
 // Ejercicio Nº 7
 
-let numero1 = prompt("ingrese un primer numero");
-let numero2 = prompt("ingrese un segundo numero");
-let numero3 = prompt("ingrese un tercer numero");
-if(numero1 > numero2, numero1 > numero3){
-    document.write(numero1);
-} else if(numero2 > numero1, numero2 > numero3){
-    document.write(numero2);
-} else{
-    document.write(numero3);
-}
+// let numero1 = prompt("ingrese un primer numero");
+// let numero2 = prompt("ingrese un segundo numero");
+// let numero3 = prompt("ingrese un tercer numero");
+// if(numero1 > numero2, numero1 > numero3){
+//     document.write(numero1);
+// } else if(numero2 > numero1, numero2 > numero3){
+//     document.write(numero2);
+// } else{
+//     document.write(numero3);
+// }
 
 
 //document.write(numero1+numero2)
@@ -55,3 +55,41 @@ if(numero1 > numero2, numero1 > numero3){
 
 //console.log(numero1);
 //console.log(numero2);
+
+// Ejercicio Nº 8
+
+// let numeroDivisible = prompt("ingrese un numero");
+// if(numeroDivisible %2 ===0){
+//     document.write("el numero es divisible en 2");
+// } else{ document.write()
+// }
+
+
+// Ejercicio Nº 9
+
+// let frase = prompt("ingrese una frase");
+
+// frase.substring(0);
+
+// Ejercicio Nº 10
+
+// let numeroDivisible = prompt("ingrese un numero");
+
+// if(numeroDivisible % 2 ===0 || numeroDivisible % 3 ===0 || numeroDivisible % 5 ===0 || numeroDivisible % 7 ===0){
+//     document.write("el numero es divisible en 2");
+// } else{
+//     document.write();
+// }
+
+// Ejercicio Nº 11
+
+// let numeroDivisible = prompt("ingrese un numero");
+// if(numeroDivisible %2 ===0){
+//     document.write("el numero es divisible en 2");
+// } else if(numeroDivisible %3 ===0){
+//     document.write("el numero es divisiblen en 3");
+// } else if(numeroDivisible %5 ===0){
+//     document.write("el numero es divisible en 5");
+// } else (numeroDivisible %7 ===0){
+//     document.write("el numero es divisible en 7");
+// };
