@@ -10,8 +10,8 @@ let contador = 1000 ;
 
 //}
 
-if(nombrePeliculas){{document.write("");} 
-else{(contador>=1000){document.write("Peli "+contador+"<br>");}}}
+if(nombrePeliculas){{document.write("")}; 
+else{(contador>=1000){document.write("Peli "+contador+"<br>")}}};
 
 
 
